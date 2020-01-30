@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build-for-mac": "NODE_ENV='production' webpack",
-    "build": "SET NODE_ENV='production' && webpack"
+    "build": "NODE_ENV='production' webpack",
+    "build-for-win": "SET NODE_ENV='production' && webpack"
   },
   "babel": {
     "presets": [
